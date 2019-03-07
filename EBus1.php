@@ -56,7 +56,7 @@ $_SESSION['txtTotal'] = $totalValue;
                 </tr>
                 <tr>
                     <td>Total</td>
-                    <td><input type="text" id="txtTotal" name="txtTotal" value="&euro;" readonly/></td>
+                    <td><input type="text" id="txtTotal" name="txtTotal" value="&euro; " readonly/></td>
                 </tr>
             </table>
         </center>
