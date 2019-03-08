@@ -3,7 +3,10 @@
 <html>
 
 	
-<body>
+    <body> <center>
+        <h1>Customer Receipt</h1>
+    
+   
     
 <!-- //Starting the session to get the session variable from last page-->
 <?php
@@ -18,7 +21,7 @@ echo "the total value is ".$totalValue2.".";
 ?>
 
 	
-	
+	</center>
 </body>
 	
 </html>

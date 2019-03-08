@@ -16,68 +16,53 @@ and open the template in the editor.
                 
                                             
 <style>
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 18px 34px;
-  text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #b9bbbe;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 6px 4px;
-  cursor: pointer;
- 
 }
 
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 5px solid #4CAF50;
-  
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
 }
 
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 5px solid #008CBA;
+li:last-child {
+  border-bottom: none;
 }
 
-.button3 {
-  background-color: white; 
-  color: black; 
-  border: 5px solid #f44336;
+li a.active {
+  background-color: #b9bbbe;
+  color: white;
 }
 
-.button4 {
-  background-color: white;
-  color: black;
-  border: 5px solid #e7e7e7;
-}
-
-.button5 {
-  background-color: white;
-  color: black;
-  border: 5px solid #555555;
+li a:hover:not(.active) {
+  background-color: #b9bbbe;
+  color: white;
 }
 </style>
-            
 </head>
 <body>
 
-<h2></h2>
-<a href="cv.html" class="button1">CV</a>
-<a href="index.html" class="button2">About Me</a>
-<a href="tiltedpage_scroll_demo.html" class="button3">Interests</a>
-<a href="consultingservices.html" class="button4">Consulting Services</a>
-<a href="Ebus1.php" class="button5">Ebusiness</a>
 
-<button <a class="button button1" >CV</button></a>
-<button class="button button2">About Me</button>
-<button class="button button3">Interests</button>
-<button class="button button4">Consulting Services</button>
-<button class="button button5">Ebusiness</button>
+<p></p>
 
+<ul>
+  <li><a class="active" href="CV.html">CV</a></li>
+  <li><a href="tiltedpage_scroll_demo.html">Interests</a></li>
+  <li><a href="ConsultingServices.html">Services</a></li>
+  <li><a href="EBus1.php">EBusiness</a></li>
+</ul>
 
 
 </body>
